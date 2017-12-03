@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %> ejs</title>
+    <link rel='stylesheet' href='/css/style.css'/>
+  </head>
+  <body>
+
+    <h1><%= title %></h1>
+    <p><% JSON.stringify(user) %></p>
+    <p><% JSON.stringify(post) %></p>
+
+    <ul>
+        <li><%= user.userName %></li>
+        <li><%= user.email %></li>
+    </ul>
+
+    <ol>
+        <li><%= post.title %></li>
+        <li><%= post.content %></li>
+    </ol>
+  </body>
+</html>
