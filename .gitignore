@@ -1,2 +1,4 @@
 node_modules
 .idea/
+npm-error.log
+yarn-error.log
