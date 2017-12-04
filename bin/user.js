@@ -24,7 +24,6 @@ const user = User.sync({ force: false });// 默认 forse=false
 
 // 3.添加新用户
 exports.addUser = function(userName, email) {
-    console.log(userName, email);
     return User.create({
         userName: userName,
         email: email

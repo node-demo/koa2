@@ -1,2 +1,4 @@
-# koa2
-koa2+mysql+sequelize分页api
+## NodeJs (分页api)
+- koa 2
+- mysql 2
+- sequelize
